@@ -1,4 +1,4 @@
-package com.healthcare.healthcareproject;
+package com.healthcare.healthcareproject.util;
 
 public enum ProviderSpecialization {
     CARDIOLOGY,

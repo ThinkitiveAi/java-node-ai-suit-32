@@ -1,6 +1,6 @@
 package com.healthcare.healthcareproject.model;
 
-import com.healthcare.healthcareproject.ProviderSpecialization;
+import com.healthcare.healthcareproject.util.ProviderSpecialization;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;

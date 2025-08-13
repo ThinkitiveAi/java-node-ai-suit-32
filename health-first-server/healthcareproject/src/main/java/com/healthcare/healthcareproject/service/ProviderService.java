@@ -6,7 +6,7 @@ import com.healthcare.healthcareproject.dto.ProviderLoginRequest;
 import com.healthcare.healthcareproject.dto.ProviderLoginResponse;
 import com.healthcare.healthcareproject.model.Provider;
 import com.healthcare.healthcareproject.repository.ProviderRepository;
-import com.healthcare.healthcareproject.ProviderSpecialization;
+import com.healthcare.healthcareproject.util.ProviderSpecialization;
 import com.healthcare.healthcareproject.security.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCrypt;
