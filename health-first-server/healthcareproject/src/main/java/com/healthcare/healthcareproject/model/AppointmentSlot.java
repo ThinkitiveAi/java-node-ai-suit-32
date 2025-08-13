@@ -33,11 +33,8 @@ public class AppointmentSlot {
 
     private UUID patientId;
 
-    @NotBlank
     private String appointmentType;
 
-    @NotBlank
-    @Column(unique = true)
     private String bookingReference;
 
     @CreatedDate
